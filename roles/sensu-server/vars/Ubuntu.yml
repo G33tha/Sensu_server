@@ -1,0 +1,55 @@
+---
+# vars/Ubuntu.yml: Variables for Ubuntu
+# Defaults are defined in defaults/main.yml
+
+# redis server properties
+redis_pkg_name: redis-server
+redis_service_name: redis-server
+
+# Sensu/Uchiwa user/group/service properties
+sensu_user_name: root
+sensu_group_name: root
+
+# sensu_api_host:
+# sensu_api_ssl:
+# uchiwa_sensu_api_port:
+# sensu_api_user_name:
+# sensu_api_password:
+# sensu_api_uchiwa_path:
+# sensu_api_timeout:
+# uchiwa_users:
+# to_nice_json:
+# uchiwa_port:
+# uchiwa_auth_privatekey:
+# uchiwa_auth_publickey:
+# uchiwa_refresh:
+# ansible_distribution:
+# sensu_config_path:
+# sensu_client_config:
+# role_path:
+# sensu_client_service_name:
+# ansible_distribution:
+# sensu_redis_config:
+# sensu_rabbitmq_config:
+role_path: /home/opt-dt-016/sensu-ansible/roles/sensu-server
+# ansible_distribution:
+# uchiwa_service_name:
+# sensu_enterprise_dashboard_service_name:
+# sensu_config_path:
+# static_data_store:
+# sensu_remote_plugins:
+# sensu_ssl_server_cacert:
+# sensu_ssl_server_cert:
+# sensu_ssl_server_key:
+# rabbitmq_config_template:
+# rabbitmq_service_name:
+# rabbitmq_sensu_vhost:
+# rabbitmq_sensu_user_name:
+# rabbitmq_sensu_password:
+# redis_service_name:
+# sensu_server_service_name:
+# sensu_enterprise_service_name:
+# se_enterprise:
+# sensu_ssl_deploy_remote_src:
+# sensu_ssl_client_cert:
+# sensu_ssl_client_key:
